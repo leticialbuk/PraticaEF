@@ -1,0 +1,15 @@
+C:\Dev\Blog\bin\Debug\net7.0\Blog.exe
+C:\Dev\Blog\bin\Debug\net7.0\Blog.deps.json
+C:\Dev\Blog\bin\Debug\net7.0\Blog.runtimeconfig.json
+C:\Dev\Blog\bin\Debug\net7.0\Blog.dll
+C:\Dev\Blog\bin\Debug\net7.0\Blog.pdb
+C:\Dev\Blog\obj\Debug\net7.0\Blog.csproj.AssemblyReference.cache
+C:\Dev\Blog\obj\Debug\net7.0\Blog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Blog\obj\Debug\net7.0\Blog.AssemblyInfoInputs.cache
+C:\Dev\Blog\obj\Debug\net7.0\Blog.AssemblyInfo.cs
+C:\Dev\Blog\obj\Debug\net7.0\Blog.csproj.CoreCompileInputs.cache
+C:\Dev\Blog\obj\Debug\net7.0\Blog.dll
+C:\Dev\Blog\obj\Debug\net7.0\refint\Blog.dll
+C:\Dev\Blog\obj\Debug\net7.0\Blog.pdb
+C:\Dev\Blog\obj\Debug\net7.0\Blog.genruntimeconfig.cache
+C:\Dev\Blog\obj\Debug\net7.0\ref\Blog.dll
