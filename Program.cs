@@ -42,16 +42,28 @@ namespace Blog
             //context.Posts.Add(post);
             //context.SaveChanges();
 
-            var posts = context
+            //var posts = context
+            //    .Posts
+            //    .AsNoTracking()
+            //    .Include(x => x.Author)
+            //    .Include(x => x.Category)
+            //    .OrderByDescending(x => x.LastUpdateDate)
+            //    .ToList();
+
+            //foreach (var post in posts) 
+            //    Console.WriteLine($"{post.Title} escrito por {post.Author?.Name} em {post.Category?.Name}");
+
+            var post = context
                 .Posts
-                .AsNoTracking()
                 .Include(x => x.Author)
                 .Include(x => x.Category)
                 .OrderByDescending(x => x.LastUpdateDate)
-                .ToList();
+                .FirstOrDefault();
 
-            foreach (var post in posts) 
-                Console.WriteLine($"{post.Title} escrito por {post.Author?.Name} em {post.Category?.Name}");
+            post.Author.Name = "Leticia Albuquerque";
+
+            context.Posts.Update(post);
+            context.SaveChanges();
         }
     }
 }
