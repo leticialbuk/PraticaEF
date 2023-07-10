@@ -16,6 +16,7 @@ namespace Blog.Data
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
             options.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=Blog;Trusted_Connection=True;TrustServerCertificate=True");
+            options.LogTo(Console.WriteLine);
 
         }
     }
